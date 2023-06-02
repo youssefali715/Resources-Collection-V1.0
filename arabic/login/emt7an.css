@@ -33,7 +33,45 @@ p:nth-child(2){
 a{
     text-decoration: none;
     color: white;
-    background-color: #2196F3;
+    background-color:#073165;
     padding: 10px;
     border-radius:20px
+}
+.child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cardUnit{
+    width: 400px;
+    height: 400px;
+    text-align: right;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin:0  20px;
+}
+.cardUnit:nth-child(1) > .image{
+    background-image: url(../imgs_arabic/gold_treasure.png);
+}
+.cardUnit:nth-child(2) > .image{
+    background-image: url(../imgs_arabic/science.png);
+}
+.cardUnit:nth-child(3)> .image{
+    background-image: url(../imgs_arabic/history_arabic.png);
+}
+.cardUnit > .image{
+    width: 400px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.cardUnit > h2 , .cardUnit > span{
+    margin-right: 20px;
+}
+.cardUnit > a{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding:  10px 20px;
 }
