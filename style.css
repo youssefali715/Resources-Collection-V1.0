@@ -1,38 +1,22 @@
 *{
     font-family: 'Cairo', sans-serif;
-    font-weight: 500;
+    direction: rtl;
     font-size: 25px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-span{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 20px;
-}
-.subject{
-    flex: 1 0 30%;
-    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 body{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    align-items:center;
 }
-.parent{
-    display: flex;
-    flex-wrap: wrap;
-}
+form{padding: 50px;}
 img{
-
-
-    border: 5px solid rgb(171, 170, 170);
-    border-radius: 50%;
+    width: 300px;
+}
+select{
+    margin: 20px;
+}
+input{
+    margin: 20px 155px;
 }
