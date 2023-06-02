@@ -1,0 +1,22 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    font-size: 25px;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+form{padding: 50px;}
+img{
+    width: 300px;
+}
+select{
+    margin: 20px;
+}
+input{
+    margin: 20px 155px;
+}
