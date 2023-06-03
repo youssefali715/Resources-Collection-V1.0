@@ -16,9 +16,6 @@ Overall, this website is a valuable resource for anyone seeking to expand their 
 ______
 ## features
 ______
-![ el mo3aser logo](https://i.ibb.co/6nfj7YC/moasser.png)
-![aladwaa logo](https://i.ibb.co/LxJxNCN/adwaa.png)
-![al emte7an](https://i.ibb.co/mRNQLWk/emt7an.png)
 * Easy usage for aladwaa intractive website and el emte7an qr codes and also el mo3aser qr codes 
 * Help in making teachers log in with out having an account 
 * Helps in refreshing brain and exercising of sudent
