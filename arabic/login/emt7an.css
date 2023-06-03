@@ -8,6 +8,8 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0;
+    position: relative;
+    min-height: 100vh;
 }
 span.made{
     position: absolute;
@@ -47,12 +49,12 @@ a{
     align-items: center;
 }
 .cardUnit{
-    width: 400px;
-    height: 450px;
+    min-width: 400px;
+    min-height: 450px;
     text-align: right;
     border: 2px solid grey;
     border-radius: 20px;
-    margin:0  20px;
+    margin:10px 20px;
 }
 .cardUnit:nth-child(1) > .image{
     background-image: url(../imgs_arabic/gold_treasure.png);
@@ -72,9 +74,12 @@ a{
 .cardUnit:nth-child(3)> .lesson3{
     background-image: url(../imgs_arabic/farmer.jpg);
 }
+.cardUnit:nth-child(4)> .lesson4{
+    background-image: url(../imgs_arabic/science_homework.jpg);
+}
 .cardUnit > .image{
-    width: 400px;
-    height: 200px;
+    min-width: 400px;
+    min-height: 200px;
     background-size: cover;
     border-radius: 20px;
 }
@@ -86,4 +91,9 @@ a{
     width: fit-content;
     margin: 20px auto;
     padding:  10px 20px;
+}
+body.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
