@@ -48,7 +48,7 @@ a{
 }
 .cardUnit{
     width: 400px;
-    height: 400px;
+    height: 450px;
     text-align: right;
     border: 2px solid grey;
     border-radius: 20px;
@@ -57,15 +57,24 @@ a{
 .cardUnit:nth-child(1) > .image{
     background-image: url(../imgs_arabic/gold_treasure.png);
 }
+.cardUnit:nth-child(1) > .lesson1{
+    background-image: url(../imgs_arabic/clock.jpg);
+}
 .cardUnit:nth-child(2) > .image{
     background-image: url(../imgs_arabic/science.png);
+}
+.cardUnit:nth-child(2) > .lesson2{
+    background-image: url(../imgs_arabic/child.jpg);
 }
 .cardUnit:nth-child(3)> .image{
     background-image: url(../imgs_arabic/history_arabic.png);
 }
+.cardUnit:nth-child(3)> .lesson3{
+    background-image: url(../imgs_arabic/farmer.jpg);
+}
 .cardUnit > .image{
     width: 400px;
-    height: 150px;
+    height: 200px;
     background-size: cover;
     border-radius: 20px;
 }
